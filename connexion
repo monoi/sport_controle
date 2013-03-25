@@ -14,7 +14,7 @@
 		
 		if ($test == false) {
 			echo '<h1>ERREUR : login ou mot de passe invalide</h1>';
-			echo '<p><a href="Application.html">Recommencer</a></p>';
+			echo '<p><a href="index.html">Recommencer</a></p>';
 		}
 		if ($test == true) {
 			echo 'Connexion reussie !';
@@ -23,7 +23,7 @@
 	}
 	else {
 		echo '<p>Veuillez remplir tous les champs avant de vous connecter !</p>';
-		echo '<p><a href="Application.html" data-role="button">RETOUR </a></p>';
+		echo '<p><a href="index.html" data-role="button">RETOUR </a></p>';
 	}	
 ?>
 
